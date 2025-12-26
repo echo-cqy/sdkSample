@@ -147,6 +147,8 @@ tracker.trackEvent('custom_promo_click', { promoId: 'SUMMER_SALE' });
 
 ## 目录结构
 
+详细的 Monorepo 结构说明请参考 DeepWiki 文档：[Monorepo Structure | echo-cqy/sdkSample | DeepWiki](https://deepwiki.com/echo-cqy/sdkSample/1.1-monorepo-structure)
+
 ```text
 sdk-sample/
 ├── dist/                  # 打包产物 (ESM/UMD/Types)
