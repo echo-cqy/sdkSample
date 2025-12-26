@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTracker } from '../../sdk/react-hooks';
+import { useTracker } from '../../react-hooks';
 
 interface TrackedButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   eventId?: string; // Optional custom event ID

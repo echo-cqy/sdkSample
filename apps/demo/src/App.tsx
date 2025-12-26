@@ -1,15 +1,8 @@
 import { useEffect, useState } from 'react';
-import { useTracker, usePageStay, useExposure } from './sdk/react-hooks';
-import { TrackedButton } from './components/trackedButton';
-import { TrackedPage } from './components/trackedPage';
-import { TrackedForm } from './components/trackedForm';
+import { useTracker, usePageStay, useExposure, TrackedButton, TrackedPage, TrackedForm } from 'sdk-sample';
 import { setMockLogCallback } from './mock/mock-adapter';
 
-interface MockLog {
-  type: string;
-  timestamp: string;
-  payload: Record<string, unknown>;
-}
+// interface MockLog removed (unused)
 
 // --- Sub-components for Demo ---
 

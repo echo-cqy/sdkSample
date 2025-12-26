@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { usePageView } from '../../sdk/react-hooks';
+import { usePageView } from '../../react-hooks';
 
 interface TrackedPageProps {
   pageTitle?: string;

@@ -1,7 +1,7 @@
 import { EventManager } from './event-manager';
 import { QueueManager } from './queue-manager';
 import { StrategyManager } from './strategy-manager';
-import { EventMap } from '../types';
+import { EventMap } from './types';
 import { SchemaManager, SchemaConfig } from './schema-manager';
 
 interface TrackerConfig {

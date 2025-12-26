@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import { TrackerProvider } from './sdk/react-hooks'
+import { TrackerProvider } from 'sdk-sample'
 import { initMockAdapter } from './mock/mock-adapter'
 
 // Initialize Mock Adapter to intercept requests

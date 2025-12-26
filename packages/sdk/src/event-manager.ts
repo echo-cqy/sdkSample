@@ -1,4 +1,4 @@
-import { BaseEvent } from '../types';
+import { BaseEvent } from './types';
 
 export class EventManager {
   // Enrich base info for every event

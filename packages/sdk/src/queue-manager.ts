@@ -1,4 +1,4 @@
-import { BaseEvent } from '../types';
+import { BaseEvent } from './types';
 import { StrategyManager } from './strategy-manager';
 
 export class QueueManager {

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { useTracker } from '../../sdk/react-hooks';
+import { useTracker } from '../../react-hooks';
 
 interface TrackedFormProps extends React.FormHTMLAttributes<HTMLFormElement> {
   formId: string;

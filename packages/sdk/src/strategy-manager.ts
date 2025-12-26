@@ -1,4 +1,4 @@
-import { ReportStrategy } from '../types';
+import { ReportStrategy } from './types';
 
 export class StrategyManager {
   private endpoint: string;

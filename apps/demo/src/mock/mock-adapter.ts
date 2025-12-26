@@ -15,7 +15,7 @@ export const initMockAdapter = () => {
   // Mock XMLHttpRequest
   class MockXHR extends originalXHR {
     private url: string = '';
-    private requestBody: any = null;
+    // private requestBody: any = null; // Removed unused variable
 
     open(method: string, url: string, ...args: any[]) {
       this.url = url;

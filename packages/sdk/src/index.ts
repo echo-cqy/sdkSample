@@ -1,13 +1,13 @@
 // SDK Core
-export { Tracker } from './sdk/tracker';
-export { EventManager } from './sdk/event-manager';
-export { QueueManager } from './sdk/queue-manager';
-export { StrategyManager } from './sdk/strategy-manager';
-export { SchemaManager } from './sdk/schema-manager';
-export type { SchemaConfig, EventDefinition } from './sdk/schema-manager';
+export { Tracker } from './tracker';
+export { EventManager } from './event-manager';
+export { QueueManager } from './queue-manager';
+export { StrategyManager } from './strategy-manager';
+export { SchemaManager } from './schema-manager';
+export type { SchemaConfig, EventDefinition } from './schema-manager';
 
 // React Hooks & Provider
-export { TrackerProvider, useTracker, usePageView, usePageStay, useExposure } from './sdk/react-hooks';
+export { TrackerProvider, useTracker, usePageView, usePageStay, useExposure } from './react-hooks';
 
 // UI Components
 export { TrackedButton } from './components/trackedButton';
